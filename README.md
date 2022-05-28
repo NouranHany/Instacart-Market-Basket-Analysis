@@ -17,7 +17,7 @@ to take business to the next level!
 - [EDA on instacart data](https://www.kaggle.com/code/nouranhany10/eda-on-instacart-data)
 - [Next Order Recommender](https://www.kaggle.com/code/tokakhaled/insta-market-analysis/)
 
-## EDA and Interactive Dashboard by Power BI
+## EDA and Interactive Dashboard by Power BI :bar_chart:
 - General Analysis.
 - Analyzing Behavour of users: users who always order same products.
 - How Time affects the purchasing behaviour of customers?
@@ -50,7 +50,7 @@ to take business to the next level!
   </tr>
  </table>
     
-## Next Order Recommender/Predictor
+## Next Order Recommender/Predictor :bread: :fries: :doughnut:
 > A predictive analysis model, that predicts the products ordered in users' future order based on each purchasing history. Primary Key is the user-product pair to predict whether will be in the future order or not.
 > XGBoost Classifier was used.
 > Features with highest importance used by the model:
@@ -62,10 +62,10 @@ predictive analysis model,
 ![Feature Importance](/images/feature-importance.png)
 
 
-## Association Rules
+## Association Rules :banana: :arrow_right: :tomato:
 
 
-## Project Challenges
+## Project Challenges :scream_cat:
 ### Next Order Recommender
 > * Data is sparse, we have very large number of products and of course the customer will have very few in his/her next order. Data is very skewed to the negative class. Class distribution: 90% negative class, 10% positive class. 
 > * First, we've found that there's alot of false negatives, do We changed the threshold to maximize the recall, while keeping the precision above a certain threshold [0.3]. 
