@@ -51,14 +51,15 @@ to take business to the next level!
  </table>
     
 ## Next Order Recommender/Predictor :bread: :fries: :doughnut:
-> A predictive analysis model, that predicts the products ordered in users' future order based on each purchasing history. Primary Key is the user-product pair to predict whether will be in the future order or not.
+**A predictive analysis model** , that predicts the products ordered in users' future order based on each purchasing history. Primary Key is the user-product pair to predict whether will be in the future order or not.
+
 > XGBoost Classifier was used.
+
 > Features with highest importance used by the model:
-predictive analysis model, 
-- up_orders_since_last_order: measures how long the user hasn't considered buying a specific product.
-- up_order_rate_since_first_time: measures the degree a user like a product. It's the ratio by which a user will buy a product from the first moment he/she knew about it.
-- prod_reorder_ratio: measures how customers in general like a product.
-- user_reorder_ratio: measures how this user is likely to buy something new!
+> - up_orders_since_last_order: measures how long the user hasn't considered buying a specific product.
+> - up_order_rate_since_first_time: measures the degree a user like a product. It's the ratio by which a user will buy a product from the first moment he/she knew about it.
+> - prod_reorder_ratio: measures how customers in general like a product.
+> - user_reorder_ratio: measures how this user is likely to buy something new!
 ![Feature Importance](/images/feature-importance.png)
 
 
