@@ -81,7 +81,7 @@ to take business to the next level!
 |     ├── eda-on-instacart-data.ipynb 
 |         
 ├── Model
-|     |                                              
+|     ├── Association Rules Using Apriori.ipynb                                              
 |     └── predictive-analysis-model.ipynb 
 └── Business Insights 
       ├── Business Questions-Solutions.pdf                                              
