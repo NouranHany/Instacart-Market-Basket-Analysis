@@ -27,19 +27,27 @@ to take business to the next level!
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./images/general-analysis-eda.png" alt="graph" width="300">
-    <br />
-    </td>
-    <td align="center">
-    <img src="./images/time-heatmap-eda.png" alt="graph" width="300"/>
+      <img src="./images/powerBI.png" alt="graph" width="400">
     <br />
     </td>
   </tr>
  </table>
- <table align="center">
+<table align="center">
   <tr>
     <td align="center">
-      <img src="./images/analyzing-products.png" alt="graph" width="300"/>
+      <img src="./images/powerBI.png" alt="graph" width="400">
+    <br />
+    </td>
+    <td align="center">
+    <img src="./images/powerBI2.png" alt="graph" width="400"/>
+    <br />
+    </td>
+  </tr>
+ </table>
+<table align="center">
+  <tr>
+    <td align="center">
+    <img src="./images/time-heatmap-eda.png" alt="graph" width="300"/>
     <br />
     </td>
     <td align="center">
@@ -64,7 +72,17 @@ to take business to the next level!
 
 
 ## Association Rules :banana: :arrow_right: :tomato:
-
+We have used the Apriori algorithm to extract assciation rules embedded in instacart's data.
+The following functions are implemented to later serve as an API calls in the deployed version:
+| Function                                	| Documentation                                                                                                               	|
+|-----------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------	|
+| most_10_frequent_items                  	| Takes the cardinality of the itemset and return the most 10 frequent item-sets of that cardinality.                         	|
+| all_items_with_at_least_support_and_len 	| Returns the itemset of a specific cardinality and satisfying a minimum support.                                             	|
+| show_itemset_support                    	| Returns the support of a given item-set                                                                                     	|
+| rules_with_specific_threshold           	| Return (Filter) rules satisfying a given threshold. Threshold can be on confidence, support, lift, leverage and conviction. 	|
+| select_rules_with_antecedents_length    	| Return rules with a specific antecedents cardinality.                                                                       	|
+| select_rules_with_antecedents_names     	| Return rules of a specific antecedent.                                                                                      	|
+| select_rules_with_consequents_names     	| Return rules of a specific consequent.                                                                                      	|
 
 ## Project Challenges :scream_cat:
 ### Next Order Recommender
@@ -79,12 +97,12 @@ to take business to the next level!
 ./
 ├── EDA
 |     ├── eda-on-instacart-data.ipynb 
-|         
+|     └── Instacart Power Bi dashboard.pdf            
 ├── Model
 |     ├── Association Rules Using Apriori.ipynb                                              
 |     └── predictive-analysis-model.ipynb 
 └── Business Insights 
-      ├── Business Questions-Solutions.pdf                                              
+      ├── Business Questions-Solution.pdf                                              
       └── Project-Data Description.pdf
 ```
 ## Todos
