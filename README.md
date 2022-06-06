@@ -12,6 +12,7 @@ to take business to the next level!
     - EDA and Interactive Dashboard by Power BI
     - Predictive Analysis Model
     - Association Rules
+ - [Project Presentation Link](https://1drv.ms/p/s!AjrEM_oE4OtXjnA9ixFvsUTCKolU?e=nWwOmr)
 
 ## Open directly from kaggle Notebooks!
 - [EDA on instacart data](https://www.kaggle.com/code/nouranhany10/eda-on-instacart-data)
