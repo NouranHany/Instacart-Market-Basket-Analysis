@@ -24,40 +24,9 @@ to take business to the next level!
 - Analyzing products
 - Analyzing Organic Prodcuts.
 - Purchasing behaviour on Departments and Aisles.
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./images/powerBI.png" alt="graph" width="400">
-    <br />
-    </td>
-  </tr>
- </table>
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./images/powerBI.png" alt="graph" width="400">
-    <br />
-    </td>
-    <td align="center">
-    <img src="./images/powerBI2.png" alt="graph" width="400"/>
-    <br />
-    </td>
-  </tr>
- </table>
-<table align="center">
-  <tr>
-    <td align="center">
-    <img src="./images/time-heatmap-eda.png" alt="graph" width="300"/>
-    <br />
-    </td>
-    <td align="center">
-    <img src="./images/department-analysis.png" alt="graph" width="300"/>
-    <br />
-    </td>
-    
-  </tr>
- </table>
-    
+
+https://user-images.githubusercontent.com/59095993/172076099-2d2c4676-12ea-4510-8634-1928636f3452.mp4
+
 ## Next Order Recommender/Predictor :bread: :fries: :doughnut:
 **A predictive analysis model** , that predicts the products ordered in users' future order based on each purchasing history. Primary Key is the user-product pair to predict whether will be in the future order or not.
 
@@ -84,6 +53,9 @@ The following functions are implemented to later serve as an API calls in the de
 | select_rules_with_antecedents_names     	| Return rules of a specific antecedent.                                                                                      	|
 | select_rules_with_consequents_names     	| Return rules of a specific consequent.                                                                                      	|
 
+## Deploying a user use-case
+https://user-images.githubusercontent.com/59095993/172076108-dc4b1109-accc-4c6e-bf2e-9750f0504a6f.mp4
+
 ## Project Challenges :scream_cat:
 ### Next Order Recommender
 > * Data is sparse, we have very large number of products and of course the customer will have very few in his/her next order. Data is very skewed to the negative class. Class distribution: 90% negative class, 10% positive class. 
@@ -101,14 +73,24 @@ The following functions are implemented to later serve as an API calls in the de
 ├── Model
 |     ├── Association Rules Using Apriori.ipynb                                              
 |     └── predictive-analysis-model.ipynb 
-└── Business Insights 
-      ├── Business Questions-Solution.pdf                                              
-      └── Project-Data Description.pdf
+├── Business Insights 
+|     ├── Business Questions-Solution.pdf                                              
+|     └── Project-Data Description.pdf
+├── Example of Deployment
+|     ├── model.html
+|     ├── index.html
+|     ├── rules.html
+|     ├── js
+|     └── css
+├── Presentation
+|     └── DS - Presentation.pptx 
+└── images
 ```
 ## Todos
 - [ ] Applying dynamic thresholding on user's products according to his/her average basket size.
-- [ ] Applying seperate prediction on strong behaviour users.
-- [ ] Deploy the Model.
+- [ ] Continue developing the time-dependent features.
+- [ ] Apply oversampling and undersampling, and observe whether this will help the imbalanced class problem.
+- [ ] Deploy the Full Model.
 
 ## Contributors
 <table align="center">
